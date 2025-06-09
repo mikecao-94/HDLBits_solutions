@@ -3,7 +3,7 @@ module top_module(
     input areset,
     input train_valid,
     input train_taken,
-    output [1:0] state
+    output reg [1:0] state
 );
     parameter SNT = 2'b00, WNT = 2'b01, WT = 2'b10, ST = 2'b11;
 
