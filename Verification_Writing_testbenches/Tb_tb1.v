@@ -12,4 +12,5 @@ module top_module ( output reg A, output reg B );//
         #20 B = 0;    	// B goes low at t = 40
     end
 
+
 endmodule
